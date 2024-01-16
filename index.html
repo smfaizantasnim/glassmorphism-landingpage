@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass WEB Design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    li {
+        float: none;
+        display: inline-block;
+    }
+
+    a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball-1"></div>
+        <div class="ball-2"></div>
+        <div class="ball-3"></div>
+        <div class="box">
+          <nav>
+            <div class="logo"><span>!</span>Elias</div>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACTS</a></li>
+                <li><a href="">LOGIN</a></li>
+            </ul>
+          </nav>
+          <div id="contains">
+            <div class="section-1">
+                <h1>Welcome</h1>
+                <h3>To our <span>"</span> First website<span>"</span></h3>
+                <div id="btn-container" >
+                    <button class="btn-primary">More Info</button>
+                    <button class="btn-primary">Contact us</button>
+                </div>
+            </div>
+            <div class="section-2">
+                <img src="./img_flwr.gif" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
